@@ -1,17 +1,78 @@
+<!-- this website was created to participate in code pen challenge
+    styling magazine -->
+
 <html>
 
 <head>
 <style>
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	box-sizing: border-sizing;
+	font-family: arial;
+	background: rgba(240, 210, 210);
+	line-height: 30px;
+	letter-spacing: 0.06rem;
+}
+.navbar {
+	width: 100%;
+	height: 60px;
+	background: rgba(0, 0, 0, 1);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.navbar div {
+	color: white;
+	cursor: pointer;
+	color: rgba(255, 255, 255, 0.75);
+}
+.navbar div:hover {
+	color: white;
+}
 
-    
+img[class^="editorial-image"] {
+	max-width: 40%;
+	padding: 5px;
+}
+.hero-image {
+	width: 100%;
+	height: 290px;
+	object-fit: cover;
+	position: relative;
+	z-index: -1;
+}
 </style>
 </head>
 
 <body>
+    <img src="https://images.unsplash.com/photo-1642369903283-0dbfb3015613?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0ODkzOTU1MA&ixlib=rb-1.2.1&q=85" alt="a red cardinal perched on a bare tree branch. " title="Photo by Prazanthy Ramesh for Unsplash" class="hero-image">
+    <div id='show_bg_2'>
+        <h1>Birds, Birds, Birds!</h1>
+    </div>
+     
+    <div class=navbar>
+        <div> 8 Min <i class="fa-solid fa-clock"></i></div>
+        <div>Author <i class="fa-solid fa-user"></i></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div> Birds <i class="fas fa-tags"></i> </div>
+        <div>Animals <i class="fas fa-tags"></i> </div>
+        <div>Nature <i class="fas fa-tags"></i></div>
+    
+    </div>
+
+
 
 
 </body>
-
-
-
 </html>
